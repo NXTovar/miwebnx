@@ -1,2 +1,2 @@
 # miwebnx
-Mi web para la materia de Diseño Web
+Fotografía sin conocimientos
