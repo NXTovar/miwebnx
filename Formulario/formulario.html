@@ -25,14 +25,14 @@
                 
                 <form action="#" method="post" id="contact_form">
                   <div class="name">
-                    <h2>Datos del paciente</h2>
+                    <h2>Datos del usuario</h2>
                     <label for="name"></label>
                     <input type="text" placeholder="Nombre completo" name="name" id="name_input" required>
                   </div>
                   <div class="yes-no">
                     <label for="yes-no"></label>
                     <select placeholder="yes-no line" name="yes-no" id="yes-no_input" required>
-                      <option disabled hidden selected>¿Menor de edad?</option>
+                      <option disabled hidden selected>¿Primera vez?</option>
                       <option>Sí</option>
                       <option>No</option>                      
                     </select>
@@ -52,7 +52,7 @@
                     <label for="direccion"></label>
                     <input type="text" placeholder="Dirección" name="Direccion" id="direccion_input" required>
                   </div>
-                  <h2>Datos de la cita</h2>
+                  <h2>Datos para agendar reunión</h2>
                   <div class="city">
                     <label for="city"></label>
                     <input type="text" placeholder="Ciudad" name="city" id="city_input" required>
@@ -65,9 +65,9 @@
                     <label for="subject"></label>
                     <select placeholder="Subject line" name="subject" id="subject_input" required>
                       <option disabled hidden selected>Tipo de cita</option>
-                      <option>Medicina General</option>
-                      <option>Especialista</option>
-                      <option>Odontología</option>
+                      <option>Primera reunión</option>
+                      <option>Reunión revisión</option>
+                      <option>Reunión revisión final</option>
                     </select>
                   </div>
                   <div class="message">
